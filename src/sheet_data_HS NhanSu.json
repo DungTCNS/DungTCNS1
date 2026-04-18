@@ -1,0 +1,442 @@
+[
+  [
+    null,
+    null,
+    "CÔNG TY ĐIỆN LỰC VŨNG TÀU",
+    null,
+    {
+      "error": "#VALUE!"
+    }
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    {
+      "error": "#VALUE!"
+    }
+  ],
+  [
+    null,
+    null,
+    "QUẢN LÝ NHÂN SỰ",
+    null,
+    {
+      "error": "#VALUE!"
+    }
+  ],
+  [
+    null,
+    null,
+    "THÔNG TIN NGƯỜI LAO ĐỘNG",
+    "THÔNG TIN NGƯỜI LAO ĐỘNG",
+    "ẢNH"
+  ],
+  [
+    null,
+    null,
+    "Mã Nhân viên",
+    "(2)011991-Thuan",
+    {
+      "formula": "INDEX(DuLieuDauVao!$B:$Z,MATCH($C$7,DuLieuDauVao!$B:$B,0),11)",
+      "result": {
+        "error": "#VALUE!"
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    "Tên Nhân viên",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,2,0)",
+      "result": "Nguyễn Văn Thuấn"
+    },
+    {
+      "formula": "INDEX(DuLieuDauVao!$B:$Z,MATCH($C$7,DuLieuDauVao!$B:$B,0),11)",
+      "result": {
+        "error": "#VALUE!"
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    "Ngày sinh",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,3,0)",
+      "result": "1974-05-03T00:00:00.000Z"
+    },
+    {
+      "formula": "INDEX(DuLieuDauVao!$B:$Z,MATCH($C$7,DuLieuDauVao!$B:$B,0),11)",
+      "result": {
+        "error": "#VALUE!"
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    "Giới tính",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,4,0)",
+      "result": "Nam"
+    },
+    {
+      "formula": "INDEX(DuLieuDauVao!$B:$Z,MATCH($C$7,DuLieuDauVao!$B:$B,0),11)",
+      "result": {
+        "error": "#VALUE!"
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    "Tuổi",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,5,0)",
+      "result": 52
+    },
+    {
+      "formula": "INDEX(DuLieuDauVao!$B:$Z,MATCH($C$7,DuLieuDauVao!$B:$B,0),11)",
+      "result": {
+        "error": "#VALUE!"
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    "Quê quán",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,6,0)",
+      "result": null
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,6,0)",
+      "result": null
+    }
+  ],
+  [
+    null,
+    null,
+    "Ngày vào Ngành điện",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,7,0)",
+      "result": "1994-11-01T00:00:00.000Z"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,7,0)",
+      "result": "1994-11-01T00:00:00.000Z"
+    }
+  ],
+  [
+    null,
+    null,
+    "Chức vụ, công  việc",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,8,0)",
+      "result": "Trưởng phòng"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,8,0)",
+      "result": "Trưởng phòng"
+    }
+  ],
+  [
+    null,
+    null,
+    "Bộ phận",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,9,0)",
+      "result": "Phòng Tổ chức và nhân sự"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,9,0)",
+      "result": "Phòng Tổ chức và nhân sự"
+    }
+  ],
+  [
+    null,
+    null,
+    "Năm công tác",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,10,0)",
+      "result": 32
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,10,0)",
+      "result": 32
+    }
+  ],
+  [
+    null,
+    null,
+    "Trình độ hiện tại",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,12,0)",
+      "result": "Đại học"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,12,0)",
+      "result": "Đại học"
+    }
+  ],
+  [
+    null,
+    null,
+    "Ngành đào tạo",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,13,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,13,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Năm tốt nghiệp",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,14,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,14,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Trường cấp bằng",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,15,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,15,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Loại hình đào tạo",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,16,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,16,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Thang, bảng lương",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,17,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,17,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Trình độ vào ngành điện",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,18,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,18,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Ngày vào Đảng",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,19,0)",
+      "result": "2012-04-20T00:00:00.000Z"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,19,0)",
+      "result": "2012-04-20T00:00:00.000Z"
+    }
+  ],
+  [
+    null,
+    null,
+    "Trình độ chính trị",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,20,0)",
+      "result": "Trung cấp LLCT"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,20,0)",
+      "result": "Trung cấp LLCT"
+    }
+  ],
+  [
+    null,
+    null,
+    "Trình độ ngoại ngữ",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,21,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,21,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Số điện thoại",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,22,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,22,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "Email",
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,23,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,23,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "QÚA TRÌNH CÔNG TÁC",
+    "QÚA TRÌNH CÔNG TÁC",
+    "QÚA TRÌNH CÔNG TÁC"
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,24,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    "KỶ LUẬT",
+    "KỶ LUẬT",
+    "KỶ LUẬT"
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    }
+  ],
+  [
+    null,
+    null,
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    },
+    {
+      "formula": "VLOOKUP($C$7,DuLieuDauVao!$B:$Z,25,0)"
+    }
+  ]
+]

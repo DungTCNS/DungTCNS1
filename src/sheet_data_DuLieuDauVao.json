@@ -1,0 +1,1263 @@
+[
+  [
+    null,
+    null,
+    "MSNV",
+    "Họ  và tên",
+    "Ngày, tháng, năm sinh",
+    "Giới tính",
+    "Tuổi",
+    "Quê quán",
+    "Ngày vào Ngành điện",
+    "Chức vụ",
+    "Bộ phận",
+    "Năm công tác",
+    "Hình ảnh",
+    "Trình độ",
+    "Ngành đào tạo",
+    "Năm tốt nghiệp",
+    "Trường cấp bằng",
+    "Loại hình đào tạo",
+    "Bậc lương",
+    "Trình độ khi vào ngành điện",
+    "Năm vào đảng",
+    "Trình độ chính trị",
+    "Trình độ ngoài ngữ",
+    "Số điện thoại",
+    "Email",
+    "Qúa trình công tác",
+    "Kỷ luật"
+  ],
+  [
+    null,
+    null,
+    "(1)012614-Duc",
+    "Đặng Văn Đức",
+    "12/11/1972",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D4)",
+      "result": 54,
+      "ref": "F4:F39",
+      "shareType": "shared"
+    },
+    "Thành phố Hồ Chí Minh",
+    "2014-07-27T00:00:00.000Z",
+    "Q.Chánh Văn phòng",
+    "Văn phòng",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H4)",
+      "result": 12
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2008,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức",
+    "6/8",
+    "Đại học",
+    "2021-07-12T00:00:00.000Z",
+    "Trung cấp LLCT",
+    null,
+    913948594,
+    {
+      "text": "Duc3DV@hcmpc.com.vn",
+      "hyperlink": "mailto:Duc3DV@hcmpc.com.vn"
+    },
+    "- Từ 1994-1996 : Công nhân treo tháo điện kế\n- Từ 1996 : Nhân viên khảo sát chiết tính lắp đặt công tơ mới\n- Từ 20/03/2011: Chấm dứt HĐLĐ\n- Từ 24/07/2014: Ký HĐLĐ và được điều động về phòng KH-KT\n- Từ 01/12/2014: Chuyển về phòng KH-VT\n- Từ 01/09/2017: Bổ nhiệm Phó chánh văn phòng\n- Từ 15/7/2025 đến nay: Phó chánh- Quyền Chánh văn phòng.",
+    "Không"
+  ],
+  [
+    null,
+    null,
+    "(1)011915-Anh",
+    "Đặng Tuấn Anh",
+    "1973-05-16T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 53,
+      "sharedFormula": "F4"
+    },
+    "Hà Nội",
+    "1991-02-01T00:00:00.000Z",
+    "TT. Tổ hành chính quản trị",
+    "Văn phòng",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H5)",
+      "result": 35
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Công nghệ Kỹ thuật Điện-Điện Tử",
+    2018,
+    "ĐH Điện lực",
+    "Vừa học vưa làm",
+    null,
+    null,
+    "2000-07-26T00:00:00.000Z",
+    null,
+    null,
+    null,
+    null,
+    "- Từ 1991-2001: Điều hành viên TBA truyền tải điện 4\n- Từ 2001-2019: Công nhân vận hành trạm TBA\n- Từ 2019-2025: Nhân viên Xí nghiệp Dịch vụ\n- Từ 15/07/2025 đến nay: TT. Tổ Hành chính Quản trị VP\n",
+    "Không"
+  ],
+  [
+    null,
+    null,
+    "(1)011966-Diep",
+    "Doãn Khắc Diệp",
+    "19/05/1970",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D6)",
+      "result": 56,
+      "ref": "F6:F7",
+      "shareType": "shared"
+    },
+    null,
+    "1993-09-06T00:00:00.000Z",
+    "TP.Tổ hành chính quản trị",
+    "Văn phòng",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H6)",
+      "result": 33,
+      "ref": "K6",
+      "shareType": "shared"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Kỹ thuật Điện - Điện tử",
+    2012,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Vừa học vưa làm",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    "(1)012533-Thang",
+    "Nguyễn Cao Thắng",
+    "1989-03-02T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 37,
+      "sharedFormula": "F6"
+    },
+    "Thánh Hóa",
+    null,
+    "Chuyên viên hành chính Văn phòng",
+    "Văn phòng",
+    null,
+    null,
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Lâm Quốc Thiện",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Chuyên viên hành chính quản trị",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    2,
+    "Trần Thị Ngọc Trinh",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Chuyên viên hành chính quản trị",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    3,
+    "Hạ Anh Tuyết",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Chuyên viên hành chính quản trị",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    4,
+    "Nguyễn Thị Thu Hiền",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Nhân viên nghiệp vụ",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    5,
+    "Phạm Minh Hòa",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Nhân viên hành chính quản trị",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    6,
+    "Vũ Huỳnh Thảo My",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Cán sự hành chính quản trị",
+    "Văn phòng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Không"
+  ],
+  [
+    null,
+    null,
+    7,
+    "Phạm Thị Thu Thảo",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Cán sự hành chính quản trị",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    "(1)012004-Nhan",
+    "Đặng Thành Nhân",
+    "14/07/1973",
+    "Nam",
+    {
+      "result": 53,
+      "sharedFormula": "F4"
+    },
+    "TP. Hồ Chí Minh",
+    "1995-07-01T00:00:00.000Z",
+    "TT.Tổ công xa",
+    "Văn phòng",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H15)",
+      "result": 31,
+      "ref": "K15:K73",
+      "shareType": "shared"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2008,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức",
+    null,
+    null,
+    "2014-07-23T00:00:00.000Z",
+    "Sơ cấp LLCT",
+    null,
+    null,
+    null,
+    "- Từ 1995-1998 : Nhân viên Tổ QL đường dây.\n- Từ 1999-2009:  Nhân viên khảo sát chiết tính công tơ\n- Từ 2009-2010 : Phụ trách phòng viễn thông - CNTT\n- Từ 2010-2011: TP. VT&CNTT\n- Từ 2012-2018: Phụ trách Tỗ kiểm tra SDĐ\n- Từ 2018-2025: Tổ trưởng Tổ KTGSMBĐ\n- Từ 15/07/2025 đến nay: Tổ trưởng Tổ công xa"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Trần Văn Hậu",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "TP. Tổ công xa",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Lâm Khánh Dũng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Trương Minh Hiệp",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Nguyễn Văn Hùng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Phạm Xuân Long",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Nguyễn Ngọc Qúy",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Nguyễn Xuân Vân",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Trần Đức Dưỡng",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Võ Ngọc Trường Giang",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Lê Phương Quang",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    1,
+    "Lê Đình Quế",
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Công nhân lái xe",
+    "Văn phòng"
+  ],
+  [
+    null,
+    null,
+    "(2)011991-Thuan",
+    "Nguyễn Văn Thuấn",
+    "1974-05-03T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 52,
+      "sharedFormula": "F4"
+    },
+    "Hà Nội",
+    "1994-11-01T00:00:00.000Z",
+    "Trưởng phòng",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 32,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2012-04-20T00:00:00.000Z",
+    "Trung cấp LLCT"
+  ],
+  [
+    null,
+    null,
+    "(2)012263-Hoa",
+    "Chu Ninh Thị Thái Hòa",
+    "1973-03-25T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 53,
+      "sharedFormula": "F4"
+    },
+    "Ninh Bình",
+    "1994-03-01T00:00:00.000Z",
+    "Phó phòng",
+    null,
+    {
+      "result": 32,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2012-12-28T00:00:00.000Z",
+    "Trung cấp LLCT"
+  ],
+  [
+    null,
+    null,
+    "(2)012304-Huyen",
+    "Nguyễn Hữu Huyên",
+    "1974-05-19T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 52,
+      "sharedFormula": "F4"
+    },
+    "Thanh Hóa",
+    "2006-05-03T00:00:00.000Z",
+    "Phó phòng",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 20,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2002-05-06T00:00:00.000Z",
+    "Trung cấp LLCT"
+  ],
+  [
+    null,
+    null,
+    "(2)012481-Binh",
+    "Trần Ngọc Bình",
+    "1976-09-01T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 50,
+      "sharedFormula": "F4"
+    },
+    "Nghệ An",
+    "1997-10-01T00:00:00.000Z",
+    "Chuyên viên thanh tra, kiểm tra khiếu nại, tố cáo",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 29,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2001-07-13T00:00:00.000Z"
+  ],
+  [
+    null,
+    null,
+    "(2)012058-Tra",
+    "Trần Văn Trà",
+    "1976-09-25T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 50,
+      "sharedFormula": "F4"
+    },
+    "Hưng Yên",
+    "1998-05-15T00:00:00.000Z",
+    "Chuyên viên thanh tra, kiểm tra khiếu nại, tố cáo",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 28,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2011-04-01T00:00:00.000Z"
+  ],
+  [
+    null,
+    null,
+    "(2)012362-Dung",
+    "Nguyễn Anh Dũng",
+    "1981-12-20T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 45,
+      "sharedFormula": "F4"
+    },
+    "Bắc Ninh",
+    "2007-03-20T00:00:00.000Z",
+    "Chuyên viên kiểm soát tổng hợp",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 19,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Thiết bị điện - điện tử",
+    2018,
+    "ĐH Bách khoa Hà Nội",
+    "Vừa làm vừa học",
+    null,
+    null,
+    "2020-12-22T00:00:00.000Z",
+    "Sơ cấp LLTC",
+    null,
+    963696569,
+    {
+      "text": "Dung2NA@hcmpc.com.vn",
+      "hyperlink": "mailto:Dung2NA@hcmpc.com.vn"
+    },
+    "- Từ 2007-2012: Nhân viên KT - TT Viễn thông.\n- Từ 2012-14/07/2025: Chuyên viên AT - P.AT.\n- Từ 15/07/2025-21/9/2025: Kỹ sư AT, P. KTAT\n- Từ 22/09/2025 đến nay: Chuyên viên TCNS-P.TCNS",
+    "Không"
+  ],
+  [
+    null,
+    null,
+    "(2)012667-Hoai",
+    "Nguyễn Thị Thu Hoài",
+    "1988-11-17T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 38,
+      "sharedFormula": "F4"
+    },
+    "Quảng Trị",
+    "2016-01-21T00:00:00.000Z",
+    "Chuyên viên tổ chức nhân sự",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 10,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học"
+  ],
+  [
+    null,
+    null,
+    "(2)012499-Ngoc",
+    "Đỗ Thị Bích Ngọc",
+    "1988-12-22T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 38,
+      "sharedFormula": "F4"
+    },
+    "Gia Lai",
+    "2011-07-25T00:00:00.000Z",
+    "Chuyên viên thi đua khen thưởng",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 15,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học"
+  ],
+  [
+    null,
+    null,
+    "(2)012315-Diu",
+    "Đào Thị Hồng Dịu",
+    "1983-08-23T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 43,
+      "sharedFormula": "F4"
+    },
+    "Ninh Bình",
+    "2006-09-26T00:00:00.000Z",
+    "Chuyên viên tổ chức nhân sự",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 20,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học"
+  ],
+  [
+    null,
+    null,
+    "(2)012622-Linh",
+    "Phạm Thùy Linh",
+    "1992-11-29T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 34,
+      "sharedFormula": "F4"
+    },
+    "Đồng Tháp",
+    "2014-11-10T00:00:00.000Z",
+    "Chuyên viên lao động tiền lương",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 12,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học"
+  ],
+  [
+    null,
+    null,
+    "(2)012490-Thao",
+    "Nguyễn Thị Phương Thảo",
+    "1987-08-17T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 39,
+      "sharedFormula": "F4"
+    },
+    "Ninh Bình",
+    "2011-04-21T00:00:00.000Z",
+    "Chuyên viên tổ chức nhân sự",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 15,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2016-08-31T00:00:00.000Z"
+  ],
+  [
+    null,
+    null,
+    "(2)012425-Thu",
+    "Huỳnh Thị Phương Thu",
+    "1980-08-06T00:00:00.000Z",
+    "Nữ",
+    {
+      "result": 46,
+      "sharedFormula": "F4"
+    },
+    "Vĩnh Long",
+    "2008-09-01T00:00:00.000Z",
+    "Chuyên viên tổng hợp",
+    "Phòng Tổ chức và nhân sự",
+    {
+      "result": 18,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "2002-08-16T00:00:00.000Z"
+  ],
+  [
+    null,
+    null,
+    "(3)012229-Hieu",
+    "Lê Trung Hiếu",
+    "24/11/1983",
+    "Nam",
+    {
+      "result": 43,
+      "sharedFormula": "F4"
+    },
+    "Lâm Đồng",
+    "2004-07-19T00:00:00.000Z",
+    "Phó phòng",
+    "Phòng Kế hoạch vật tư",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H39)",
+      "result": 22,
+      "ref": "K39",
+      "shareType": "shared"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2009,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức",
+    null,
+    null,
+    "2004-07-19T00:00:00.000Z",
+    "Trung cấp LLCT",
+    null,
+    963237327,
+    {
+      "text": "Hieu9LT@hcmpc.com.vn",
+      "hyperlink": "mailto:Hieu9LT@hcmpc.com.vn"
+    }
+  ],
+  [
+    null,
+    null,
+    "(3)012030-Son",
+    "Lê Anh Sơn",
+    "01/10/1970",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D40)",
+      "result": 56,
+      "ref": "F40:F44",
+      "shareType": "shared"
+    },
+    null,
+    "1997-03-14T00:00:00.000Z",
+    "Chuyên viên vật tư và tổng hợp - Tổ vật tư",
+    "Phòng Kế hoạch vật tư",
+    {
+      "result": 29,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    1993,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Mở rộng"
+  ],
+  [
+    null,
+    null,
+    "(3)012016-Tai",
+    "Nguyễn Văn Tài",
+    "06/05/1974",
+    "Nam",
+    {
+      "result": 52,
+      "sharedFormula": "F40"
+    },
+    "Đà Nẵng",
+    "1996-07-16T00:00:00.000Z",
+    "Chuyên viên kế hoạch vật tư - Tổ kế hoạch",
+    "Phòng Kế hoạch vật tư",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H41)",
+      "result": 30,
+      "ref": "K41",
+      "shareType": "shared"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2008,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức",
+    null,
+    null,
+    null,
+    "2017-07-07T00:00:00.000Z",
+    null,
+    963796079,
+    {
+      "text": "Tai7NV@hcmpc.com.vn",
+      "hyperlink": "mailto:Tai7NV@hcmpc.com.vn"
+    }
+  ],
+  [
+    null,
+    null,
+    "(3)012274-Dieu",
+    "Lê Xuân Diệu",
+    "16/05/1983",
+    "Nam",
+    {
+      "result": 43,
+      "sharedFormula": "F40"
+    },
+    null,
+    "2005-09-01T00:00:00.000Z",
+    "Chuyên viên vật tư và tổng hợp - Tổ vật tư",
+    "Phòng Kế hoạch vật tư",
+    {
+      "result": 21,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện công nghiệp",
+    2010,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Vừa làm vừa học"
+  ],
+  [
+    null,
+    null,
+    "(3)012750-Tien",
+    "Trần Minh Tiến",
+    "18/08/1998",
+    "Nam",
+    {
+      "result": 28,
+      "sharedFormula": "F40"
+    },
+    null,
+    "2022-12-26T00:00:00.000Z",
+    "Chuyên viên vật tư và tổng hợp - Tổ vật tư",
+    "Phòng Kế hoạch vật tư",
+    {
+      "result": 4,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Công nghệ Kỹ thuật Điện-Điện Tử",
+    2022,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Chính quy"
+  ],
+  [
+    null,
+    null,
+    "(4)011987-Vinh",
+    "Nguyễn Xuân Vinh",
+    "1973-08-24T00:00:00.000Z",
+    "Nam",
+    {
+      "result": 53,
+      "sharedFormula": "F40"
+    },
+    null,
+    null,
+    "Chuyên viên quản lý đầu tư",
+    "Phòng Quản lý đầu tư",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H44)",
+      "result": 126
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2008,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức"
+  ],
+  [
+    null,
+    null,
+    "(5)012323-Vinh",
+    "Đỗ Xuân Vinh",
+    "03/06/1983",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D45)",
+      "result": 43
+    },
+    null,
+    123,
+    "Kỹ sư kỹ thuật điện - Tổ KTAT",
+    "Phòng Kỹ thuật và An toàn",
+    {
+      "result": 126,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện công nghiệp",
+    2012,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Vừa làm vừa học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Thử nghiệm thành công",
+    "Thử nghiệm thành công"
+  ],
+  [
+    null,
+    null,
+    "(5)012209-Tam",
+    "Hồ Hữu Minh Tâm",
+    "02/09/1983",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D46)",
+      "result": 43,
+      "ref": "F46:F73",
+      "shareType": "shared"
+    },
+    null,
+    null,
+    "Kỹ sư kỹ thuật điện - Tổ KTAT",
+    "Phòng Kỹ thuật và An toàn",
+    {
+      "result": 126,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện công nghiệp",
+    2011,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Vừa làm vừa học"
+  ],
+  [
+    null,
+    null,
+    "(5)012350-Nhat",
+    "Lê Ngọc Tuấn Nhật",
+    "14/08/1986",
+    "Nam",
+    {
+      "result": 40,
+      "sharedFormula": "F46"
+    },
+    null,
+    null,
+    "Kỹ sư kỹ thuật điện - Tổ KTAT",
+    "Phòng Kỹ thuật và An toàn",
+    {
+      "result": 126,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Công nghệ Kỹ thuật Điện-Điện Tử",
+    2017,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Vừa làm vừa học",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "- Từ 2007-2010: Công nhân Đội QLVH ĐL Bà Rịa; Từ 2020-2025: KS An toàn ĐL Bà Rịa",
+    "- Từ 2007-2010: Công nhân Đội QLVH ĐL Bà Rịa; Từ 2020-2025: KS An toàn ĐL Bà Rịa"
+  ],
+  [
+    null,
+    null,
+    "(5)012688-Duong",
+    "Vũ Đại Dương",
+    "02/06/1992",
+    "Nam",
+    {
+      "result": 34,
+      "sharedFormula": "F46"
+    },
+    null,
+    null,
+    "Kỹ sư kỹ thuật điện - Tổ CNTT",
+    "Phòng Kỹ thuật và An toàn",
+    {
+      "result": 126,
+      "sharedFormula": "K15"
+    },
+    {
+      "error": "#VALUE!"
+    },
+    "Đại học",
+    "Điện công nghiệp",
+    2015,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Chính quy"
+  ],
+  [
+    null,
+    null,
+    24,
+    "Võ Hùng Phi",
+    "30/09/1980",
+    "Nam",
+    {
+      "formula": "YEAR(TODAY())-YEAR(D49)",
+      "result": 46,
+      "ref": "F49",
+      "shareType": "shared"
+    },
+    null,
+    null,
+    null,
+    "Phòng Kỹ thuật và An toàn",
+    {
+      "formula": "YEAR(TODAY())-YEAR(H49)",
+      "result": 126,
+      "ref": "K49",
+      "shareType": "shared"
+    },
+    null,
+    "Đại học",
+    "Điện khí hoá và Cung cấp điện",
+    2008,
+    "ĐH Sư phạm Kỹ thuật TP.HCM",
+    "Tại chức"
+  ]
+]
