@@ -30,11 +30,9 @@ const removeAccents = (str: string) => {
 };
 
 const getAssetPath = (filename: string) => {
-  // Use Vite's BASE_URL to accurately point to assets whether hosted on root or subpath
-  // @ts-ignore - Vite specific env var
-  const base = import.meta.env?.BASE_URL || '/';
-  const prefix = base.endsWith('/') ? base : `${base}/`;
-  return `${prefix}${filename}`;
+  // Always use explicit relative path for images so it works everywhere (Vercel, GitHub Pages, etc.)
+  // regardless of subpath.
+  return `./${filename}`;
 };
 
 const Avatar = ({ person, className }: { person: any, className: string }) => {
