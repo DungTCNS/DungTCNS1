@@ -29,6 +29,56 @@ const removeAccents = (str: string) => {
   return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 };
 
+const getAssetPath = (filename: string) => {
+  // Use Vite's BASE_URL to accurately point to assets whether hosted on root or subpath
+  // @ts-ignore - Vite specific env var
+  const base = import.meta.env?.BASE_URL || '/';
+  const prefix = base.endsWith('/') ? base : `${base}/`;
+  return `${prefix}${filename}`;
+};
+
+const Avatar = ({ person, className }: { person: any, className: string }) => {
+  const [error, setError] = useState(false);
+  const showImage = person.ImageFileName && !error;
+
+  if (showImage) {
+    return (
+      <img 
+        src={getAssetPath(person.ImageFileName)} 
+        alt={person['Họ  và tên']} 
+        className={className} 
+        onError={() => setError(true)}
+      />
+    );
+  }
+  
+  return (
+    <div className={`flex items-center justify-center text-white font-bold text-lg ${getColorForName(person['Họ  và tên'])} ${className}`}>
+      {getInitials(person['Họ  và tên'])}
+    </div>
+  );
+};
+
+const ProfileImage = ({ person }: { person: any }) => {
+  const [error, setError] = useState(false);
+  const showImage = person.ImageFileName && !error;
+
+  if (showImage) {
+    return (
+      <img 
+        src={getAssetPath(person.ImageFileName)} 
+        alt="Ảnh nhân viên" 
+        className="w-full h-full object-cover border border-gray-200"
+        onError={() => setError(true)}
+      />
+    );
+  }
+
+  return (
+    <span className="text-gray-400 text-sm font-medium">ẢNH 3x4</span>
+  );
+};
+
 export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedPerson, setSelectedPerson] = useState<any>(null);
@@ -152,17 +202,7 @@ export default function App() {
                 )}
                 
                 <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0 bg-gray-100 border border-gray-200">
-                  {person.ImageFileName ? (
-                    <img 
-                      src={`/${person.ImageFileName}`} 
-                      alt={person['Họ  và tên']} 
-                      className="w-full h-full object-cover" 
-                    />
-                  ) : (
-                    <div className={`w-full h-full flex items-center justify-center text-white font-bold text-lg ${getColorForName(person['Họ  và tên'])}`}>
-                      {getInitials(person['Họ  và tên'])}
-                    </div>
-                  )}
+                  <Avatar person={person} className="w-full h-full object-cover" />
                 </div>
                 
                 <div className="flex-1 min-w-0 pr-2">
@@ -289,15 +329,7 @@ export default function App() {
                   {/* Right Column Image */}
                   <div className="w-full md:w-[180px] flex flex-col items-center flex-shrink-0 pt-2">
                     <div className="w-[150px] h-[200px] border border-gray-400 bg-gray-50 flex items-center justify-center p-1.5 mb-2 shadow-sm">
-                       {selectedPerson.ImageFileName ? (
-                         <img 
-                           src={`/${selectedPerson.ImageFileName}`} 
-                           alt="Ảnh nhân viên" 
-                           className="w-full h-full object-cover border border-gray-200"
-                         />
-                       ) : (
-                         <span className="text-gray-400 text-sm font-medium">ẢNH 3x4</span>
-                       )}
+                       <ProfileImage person={selectedPerson} />
                     </div>
                   </div>
                 </div>
