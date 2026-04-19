@@ -49,7 +49,17 @@ const getAssetPath = (filename: string) => {
 };
 
 const getImageSource = (person: any) => {
-  const imgData = person.ImageFileName || person['Hình ảnh'];
+  let imgData = person['Hình ảnh'];
+  
+  // Prefer HTTP links from the sheet directly
+  if (imgData && typeof imgData === 'string' && imgData.startsWith('http')) {
+    return imgData;
+  }
+  
+  // Fallback to local mapped file if available
+  imgData = imgData || person.ImageFileName;
+  
+  // Return null if invalid
   if (!imgData || imgData === '#VALUE!' || imgData === 'Không') return null;
   return imgData;
 };
@@ -347,7 +357,7 @@ export default function App() {
 
                   {/* Right Column Image */}
                   <div className="w-full md:w-[180px] flex flex-col items-center flex-shrink-0 pt-2">
-                    <div className="w-[150px] h-[200px] border border-gray-400 bg-gray-50 flex items-center justify-center p-1.5 mb-2 shadow-sm">
+                    <div className="w-[150px] aspect-[3/4] border border-gray-400 bg-gray-50 flex items-center justify-center p-1.5 mb-2 shadow-sm">
                        <ProfileImage person={selectedPerson} />
                     </div>
                   </div>
