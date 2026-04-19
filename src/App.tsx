@@ -30,19 +30,39 @@ const removeAccents = (str: string) => {
 };
 
 const getAssetPath = (filename: string) => {
+  if (!filename) return '';
+  
+  // Auto-convert Google Drive viewer links to direct image links
+  if (filename.includes('drive.google.com/file/d/')) {
+    const match = filename.match(/\/d\/([a-zA-Z0-9-_]+)/);
+    if (match && match[1]) {
+      return `https://drive.google.com/uc?export=view&id=${match[1]}`;
+    }
+  }
+
+  if (filename.startsWith('http') || filename.startsWith('data:')) {
+    return filename; // For direct external URLs or Base64 data
+  }
   // Always use explicit relative path for images so it works everywhere (Vercel, GitHub Pages, etc.)
   // regardless of subpath.
   return `./${filename}`;
 };
 
+const getImageSource = (person: any) => {
+  const imgData = person.ImageFileName || person['Hình ảnh'];
+  if (!imgData || imgData === '#VALUE!' || imgData === 'Không') return null;
+  return imgData;
+};
+
 const Avatar = ({ person, className }: { person: any, className: string }) => {
   const [error, setError] = useState(false);
-  const showImage = person.ImageFileName && !error;
+  const imageSrc = getImageSource(person);
+  const showImage = imageSrc && !error;
 
   if (showImage) {
     return (
       <img 
-        src={getAssetPath(person.ImageFileName)} 
+        src={getAssetPath(imageSrc)} 
         alt={person['Họ  và tên']} 
         className={className} 
         onError={() => setError(true)}
@@ -59,12 +79,13 @@ const Avatar = ({ person, className }: { person: any, className: string }) => {
 
 const ProfileImage = ({ person }: { person: any }) => {
   const [error, setError] = useState(false);
-  const showImage = person.ImageFileName && !error;
+  const imageSrc = getImageSource(person);
+  const showImage = imageSrc && !error;
 
   if (showImage) {
     return (
       <img 
-        src={getAssetPath(person.ImageFileName)} 
+        src={getAssetPath(imageSrc)} 
         alt="Ảnh nhân viên" 
         className="w-full h-full object-cover border border-gray-200"
         onError={() => setError(true)}
